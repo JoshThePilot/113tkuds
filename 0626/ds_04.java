@@ -1,5 +1,3 @@
-package 0626;
-
 public class ds_04 {
     public static void main(String[] args) {
         int[] arr = {10, 20, 30, 40, 50}; 
