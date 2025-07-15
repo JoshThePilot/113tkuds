@@ -2,8 +2,11 @@ import java.util.Scanner;
 
 class StudentGradeManager {
     private static final int MAX_STUDENTS = 100;
+    @SuppressWarnings("FieldMayBeFinal")
     private static String[] studentNames = new String[MAX_STUDENTS];
+    @SuppressWarnings("FieldMayBeFinal")
     private static int[][] grades = new int[MAX_STUDENTS][5]; // 假設有5科
+    @SuppressWarnings("FieldMayBeFinal")
     private static String[] subjectNames = {"國文", "英文", "數學", "物理", "化學"};
     private static int studentCount = 0;
     
